@@ -13,19 +13,21 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 0 10px;
 }
 
-.btn.cta:after,
-.btn.cta:before{
+.btn.cta::after,
+.btn.cta::before{
 	background: #ffe800;
 	display: block;
 	position: relative;
 	height:30px;
 }
-.btn.cta:before{
-	top:2px;
+.btn.cta::before{
+	top:-20px;
 
 }
-.btn.cta:after{
-	top:10px;
+.btn.cta::after{
+	top:-10px;
+	left:-2px;
+	transform: rotate(-7.5deg);
 
 }
 
