@@ -76,6 +76,9 @@ p{
 	height:50px;
 }
 
+.ticket-btn{
+	color:white;
+}
 .ticket-btn::after, .ticket-btn::before{
 	top:11px;
 	background-color:#ed3854;
