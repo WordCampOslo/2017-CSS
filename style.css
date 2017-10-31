@@ -68,7 +68,7 @@ p{
 
 .btn.cta::after{
 	transform: rotate(-2.5deg);
-	left:-4%;
+	left:-3%;
 	top:-3px;
 	width:108%;
 	height:50px;
