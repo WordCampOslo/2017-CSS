@@ -1,0 +1,341 @@
+/* Custom CSS from 2018.oslo.wordcamp.org */
+/* Typography */
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.panel-image {
+	height: 100vh;
+	max-height: 600px;
+}
+
+.site-branding {
+	text-align: center;
+}
+
+.site-title {
+	margin: 0 auto 20px;
+}
+
+.site-title,
+.site-title a {
+	display: block;
+	height: 99px;
+	width: 542px;
+}
+
+.site-title a {
+/*background: url('https://2017.sacramento.wordcamp.org/files/2017/03/logo-horizontal.png') no-repeat;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;*/
+}
+
+body.has-header-image .site-description,
+body.has-header-video .site-description,
+.site-branding a:hover,
+.site-branding a:focus {
+	opacity: 1;
+}
+
+/* Nav & Footer */
+.navigation-top,
+.site-footer {
+	background-color: #f7f7f7;
+}
+
+/* Titles */
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+	color: #1e75bb;
+	font-size: 30px;
+	text-align: center;
+}
+
+.single-post .entry-title,
+.page .entry-title,
+h2 {
+	color: #1e75bb;
+	font-weight: 800;
+}
+
+.archive .page-header,
+.blog .page-header {
+	display: none !important;
+}
+
+/* Misc. */
+hr {
+	background: none;
+	border: 0;
+	border-collapse: collapse;
+	border-top: 1px solid #eee;
+	clear: both;
+	margin: 40px 0;
+}
+
+.edit-link {
+	display: none !important;
+}
+
+.entry-content a {
+	box-shadow: 0 -1px 0 #e61e46 inset;
+	color: #e61e46;
+}
+
+.entry-title a {
+	color: #1e75bb;
+}
+
+.entry-content ul {
+	margin-left: 50px;
+}
+
+.entry-content ul li {
+	margin-bottom: 10px;
+}
+
+.entry-meta {
+	padding-bottom: 15px;
+}
+
+.entry-footer {
+	display: none;
+}
+
+.sd-sharing {
+	padding-top: 20px;
+}
+
+/* Forms */
+.contact-form input[type="text"], .contact-form input[type="email"],
+.contact-form textarea {
+	max-width: 100%;
+	width: 100%;
+}
+
+button, input[type="button"], input[type="submit"] {
+	background-color: #1e75bb;
+	font-weight: 600;
+}
+
+/* Home Page */
+.home #post-186 {
+	display: none !important;
+}
+
+.twentyseventeen-panel {
+	text-align: center;
+}
+
+.twentyseventeen-panel .recent-posts,
+.twentyseventeen-panel .recent-posts .entry-title {
+	text-align: left;
+}
+
+.twentyseventeen-panel .recent-posts .entry-header {
+	margin-bottom: 25px;
+}
+
+/* Sponsor Page */
+.wcorg-sponsors .wcorg-sponsor {
+	border-top: 1px solid #eee;
+	margin-bottom: 40px;
+	padding-top: 40px;
+}
+
+.wcorg-sponsor-level-bronze .wcorg-sponsor:last-of-type {
+	margin-bottom: 0;
+}
+
+.wcorg-sponsors h2 {
+	border-top: 1px solid #eee;
+	padding-top: .9em;
+	text-align: center;
+}
+
+.wcorg-sponsors .wcorg-sponsor > h3 {
+	display: none;
+}
+
+.wcorg-sponsors img {
+	max-height: 100% !important;
+}
+
+.wcorg-sponsors .wcorg-sponsor-level-small-business .wcorg-sponsor > h3 {
+	display: block;
+	text-align: center;
+}
+
+/* Organizers Page */
+.wcorg-organizers .wcorg-organizer {
+	border-top: 1px solid #eee;
+	margin-bottom: 40px;
+	padding-top: 40px;
+}
+
+.wcorg-organizer-description .avatar {
+	display: none;
+}
+
+.wcorg-organizer-description > h3 {
+	clear: none;
+	padding: 0;
+}
+
+/* Blog Pages */
+.blog .site-main article,
+.archive .site-main article,
+.search .site-main article {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+
+.blog .site-main article .entry-content p:last-child,
+.archive .site-main article .entry-content p:last-child,
+.search .site-main article .entry-content p:last-child {
+	margin-bottom: 0;
+}
+
+/* Speaker Pages */
+.wcorg-speaker-description .avatar {
+	display: none;
+}
+
+.wcorg-speaker {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+
+.wcorg-speaker .wcorg-speaker-description ul:last-of-type {
+	margin-bottom: 0;
+}
+
+.speaker-avatar {
+	display: none;
+}
+
+/* Schedule Page */
+td {
+	padding: .7em;
+}
+
+.wcpt-session-type-session {
+	line-height: 1.3;
+	vertical-align: top;
+}
+
+.wcb-session-coding-for-the-masses-continued,
+.wcb-session-coding-for-the-masses-continued-2,
+.wcb-session-wordpress-beginner-track-the-dashboard-continued,
+.wcb-session-wordpress-beginner-track-deployment-continued, 
+.wcb-session-wordpress-beginner-track-deployment-continued-2 {
+	font-size: 14px;
+	font-style: italic;
+}
+
+a.wcpt-session-title {
+	box-shadow: none;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.wcpt-session-speakers {
+	display: block;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.wcpt-session-speakers a {
+	box-shadow: none;
+	color: #333;
+}
+
+/* Sessions Page */
+.wcorg-session {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+
+.wcpt-session-meta {
+	font-size: 14px;
+	font-style: italic;
+}
+
+/* Attendees Page */
+#tix-attendees .tix-field {
+	box-shadow: none;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 630px) {
+	#masthead .wrap {
+		padding: 0;
+	}
+	
+	.site-title,
+																																																.site-title a {
+		height: 54px;
+		width: 300px;
+	}
+	
+	.site-title a {
+		background-size: contain;
+	}
+	
+	.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+		font-size: 28px;
+	}
+}
+
+/**** CUSTOM STUFF BY THOMAS ***/
+.wcorg-sponsor {
+	width: calc(50% - 20px);
+	float: left;
+	clear: none;
+	margin: 10px;
+}
+
+.wcorg-sponsors img {
+	width: 95%;
+}
+
+.wcorg-sponsor-description {
+	background: #eee;
+	color: black;
+	padding: 16px;
+}
+
+.wcorg-sponsor-description img {
+	box-shadow: none !important;
+}
+
+.wcorg-sponsor-description a {
+	margin-bottom: 16px;
+	display: block;
+}
+
+.site-info {
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.site-info a:link,
+.site-info a:visited {
+	color: black;
+}
+
+.site-info a:hover {
+	color: red !important;
+	border-bottom: 3px solid red !important;
+}
