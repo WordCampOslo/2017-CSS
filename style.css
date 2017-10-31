@@ -1,7 +1,10 @@
 /* Custom CSS from 2018.oslo.wordcamp.org */
+
 /* Typography */
-h1, h2, h3, h4, h5, h6, p {
-	font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bangers', sans-serif;
 }
 
 /* Global */
@@ -111,6 +114,10 @@ body.has-header-video .site-description,
 .navigation-top,
 .site-footer {
 	background-color: #f7f7f7;
+}
+
+.navigation-top{
+	z-index:1000;
 }
 
 /* Titles */
