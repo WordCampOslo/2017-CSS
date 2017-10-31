@@ -127,7 +127,7 @@ body.has-header-video .site-description,
 /* Titles */
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
 	color: #1e75bb;
-	font-size: 30px;
+	font-size: 50px;
 	text-align: center;
 }
 
@@ -136,7 +136,6 @@ body.has-header-video .site-description,
 h2 {
 	color: #1e75bb;
 	font-weight: 800;
-	font-size: 50px;
 }
 
 .archive .page-header,
