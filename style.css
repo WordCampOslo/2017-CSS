@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
 	background: #ffe800;
 	display:block;
 	margin:10px auto;
+	max-width: 33%;
 }
 
 .btn:hover{
