@@ -13,7 +13,7 @@ p{
 
 /* Global */
 
-.custom-header-media:before{
+.custom-header-media:before, .panel-image:before{
 	background:none !important;
 }
 
