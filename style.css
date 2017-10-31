@@ -76,6 +76,10 @@ p{
 	height:50px;
 }
 
+.ticket-btn::after, .ticket-btn::before{
+	top:11px;
+}
+
 .btn.cta:hover::after, .ticket-btn:hover::after{
 	transform:rotate(1deg);
 }
