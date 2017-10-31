@@ -32,7 +32,7 @@ p{
 	box-shadow: none !important;
 }
 
-.btn.cta {
+.btn.cta, .ticket-btn {
 	background: none;
 	display: block;
 	margin: 10px auto 20px auto;
@@ -47,7 +47,9 @@ p{
 }
 
 .btn.cta::after,
-.btn.cta::before {
+.btn.cta::before,
+.ticket-btn::after,
+.ticket-btn::before {
 	background: #fee800
 	;
 	display: inline-block;
@@ -59,14 +61,14 @@ p{
 	transition:0.3s all ease;
 }
 
-.btn.cta::before {
+.btn.cta::before, .ticket-btn::before {
 	left:0;
 	top:0;
 	z-index:-5;
 	border:2px solid #000;
 }
 
-.btn.cta::after {
+.btn.cta::after, .ticket-btn::after {
 	transform: rotate(-2.5deg);
 	left:-4%;
 	top:-3px;
@@ -74,7 +76,7 @@ p{
 	height:50px;
 }
 
-.btn.cta:hover::after{
+.btn.cta:hover::after, .ticket-btn:hover::after{
 	transform:rotate(1deg);
 }
 
