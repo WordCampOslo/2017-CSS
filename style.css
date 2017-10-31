@@ -78,6 +78,11 @@ p{
 	transform:rotate(1deg);
 }
 
+#panel2 .btn.cta::before,
+#panel2 .btn.cta::after{
+	background-color: #EE395B;
+}
+
 #panel3 .btn.cta::before,
 #panel3 .btn.cta::after{
 	background-color: #2DBDF2;
