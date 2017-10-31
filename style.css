@@ -11,6 +11,8 @@ h1, h2, h3, h4, h5, h6, p {
 	padding:10px;
 	display:inline-block;
 	margin: 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .btn:hover {
@@ -21,7 +23,7 @@ h1, h2, h3, h4, h5, h6, p {
 .btn.cta {
 	background: none;
 	display: block;
-	margin: 10px auto;
+	margin: 10px auto 20px auto;
 	max-width: 33%;
 	position:relative;
 	z-index:10;
