@@ -78,7 +78,7 @@ p{
 
 .ticket-btn::after, .ticket-btn::before{
 	top:11px;
-	background-color:#efc8c1;
+	background-color:#ed3854;
 }
 
 .btn.cta:hover::after, .ticket-btn:hover::after{
