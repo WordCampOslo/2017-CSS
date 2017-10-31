@@ -6,9 +6,7 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bangers', sans-serif;
 }
-h2{
-	font-size: 50px;
-}
+
 p{
 	font-family: 'Roboto', sans-serif;
 }
@@ -138,6 +136,7 @@ body.has-header-video .site-description,
 h2 {
 	color: #1e75bb;
 	font-weight: 800;
+	font-size: 50px;
 }
 
 .archive .page-header,
