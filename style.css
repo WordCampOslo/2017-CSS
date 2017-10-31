@@ -13,6 +13,10 @@ p{
 
 /* Global */
 
+.custom-header-media:before{
+	background:none;
+}
+
 .btn{
 	border:2px solid #000;
 	padding:10px;
