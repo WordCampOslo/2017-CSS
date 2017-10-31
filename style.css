@@ -14,7 +14,7 @@ p{
 /* Global */
 
 .custom-header-media:before{
-	background:none;
+	background:none !important;
 }
 
 .btn{
