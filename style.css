@@ -48,8 +48,7 @@ p{
 
 .btn.cta::after,
 .btn.cta::before{
-	background: #fee800
-	;
+	background: #fee800;
 	display: inline-block;
 	height: 44px;
 	width: 104%;
@@ -107,18 +106,6 @@ p{
 	display: block;
 	height: 99px;
 	width: 542px;
-}
-
-.site-title a {
-/*background: url('https://2017.sacramento.wordcamp.org/files/2017/03/logo-horizontal.png') no-repeat;
-	overflow: hidden;
-	text-indent: 100%;
-	white-space: nowrap;
-	-webkit-transition: none;
-	-moz-transition: none;
-	-ms-transition: none;
-	-o-transition: none;
-	transition: none;*/
 }
 
 body.has-header-image .site-description,
@@ -370,8 +357,7 @@ a.wcpt-session-title {
 		padding: 0;
 	}
 	
-	.site-title,
-																																																.site-title a {
+	.site-title,																																									.site-title a {
 		height: 54px;
 		width: 300px;
 	}
