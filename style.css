@@ -13,12 +13,20 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 0 10px;
 }
 
+.btn.cta{
+	background: #ffe800;
+	display:block;
+	margin:10px auto;
+	max-width: 33%;
+}
+
 .btn.cta::after,
 .btn.cta::before{
 	background: #ffe800;
 	display: block;
 	position: relative;
 	height:30px;
+	width:33%;
 }
 .btn.cta::before{
 	top:-20px;
@@ -28,14 +36,6 @@ h1, h2, h3, h4, h5, h6, p {
 	top:-10px;
 	left:-2px;
 	transform: rotate(-7.5deg);
-
-}
-
-.btn.cta{
-	background: #ffe800;
-	display:block;
-	margin:10px auto;
-	max-width: 33%;
 }
 
 .btn:hover{
