@@ -124,7 +124,7 @@ body.has-header-video .site-description,
 	background-color: #f7f7f7;
 }
 
-.navigation-top{
+.site-navigation-fixed.navigation-top{
 	z-index:1000;
 }
 
