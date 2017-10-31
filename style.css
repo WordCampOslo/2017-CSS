@@ -4,6 +4,19 @@ h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Roboto', sans-serif;
 }
 
+/* Global */
+
+.btn{
+	border:2px solid #000;
+	padding:10px;
+	display:inline-block;
+	margin: 0 10px;
+}
+
+.btn.cta{
+	background: #ffe800;
+}
+
 /* Header */
 .panel-image {
 	height: 100vh;
