@@ -1,8 +1,5 @@
 /* Custom CSS from 2018.oslo.wordcamp.org */
 
-/* Typography */
-@import url('https://fonts.googleapis.com/css?family=Bangers');
-
 h1, h2, h3 {
 	font-family: 'Bangers', sans-serif;
 }
