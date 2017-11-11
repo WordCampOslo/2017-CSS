@@ -56,6 +56,7 @@ p{
 	position:absolute;
 	z-index:-10;
 	transition:0.15s all ease;
+	height: 100%;
 }
 
 .btn.cta::before{
@@ -70,7 +71,6 @@ p{
 	left:-3%;
 	top:-3px;
 	width:108%;
-	height:50px;
 }
 
 .btn.cta:hover::after{
