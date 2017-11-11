@@ -219,7 +219,6 @@ button, input[type="button"], input[type="submit"] {
 
 /* Sponsor Page */
 .wcorg-sponsors .wcorg-sponsor {
-	border-top: 1px solid #eee;
 	margin-bottom: 40px;
 	padding-top: 40px;
 }
@@ -229,7 +228,6 @@ button, input[type="button"], input[type="submit"] {
 }
 
 .wcorg-sponsors h2 {
-	border-top: 1px solid #eee;
 	padding-top: .9em;
 	text-align: center;
 }
