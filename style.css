@@ -3,7 +3,7 @@
 /* Typography */
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
 	font-family: 'Bangers', sans-serif;
 }
 
@@ -47,7 +47,7 @@ p{
 }
 
 .btn.cta::after,
-.btn.cta::before{
+.btn.cta::before,.wcorg-sponsor-description .link-more a::after,.wcorg-sponsor-description .link-more a::before{
 	background: #fee800;
 	display: inline-block;
 	height: 44px;
@@ -59,21 +59,21 @@ p{
 	height: 100%;
 }
 
-.btn.cta::before{
+.btn.cta::before,.wcorg-sponsor-description .link-more a::before{
 	left:0;
 	top:0;
 	z-index:-5;
 	border:2px solid #000;
 }
 
-.btn.cta::after{
+.btn.cta::after,.wcorg-sponsor-description .link-more a::after{
 	transform: rotate(-2.5deg);
 	left:-3%;
 	top:-3px;
 	width:108%;
 }
 
-.btn.cta:hover::after{
+.btn.cta:hover::after,.wcorg-sponsor-description .link-more a:hover::after{
 	transform:rotate(1deg);
 }
 
@@ -384,9 +384,13 @@ a.wcpt-session-title {
 }
 
 .wcorg-sponsor-description {
-	background: #eee;
+	background: transparent;
 	color: black;
 	padding: 16px;
+}
+
+.wcorg-sponsor-description a{
+	box-shadow: none;
 }
 
 .wcorg-sponsor-description img {
