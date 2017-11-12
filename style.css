@@ -258,6 +258,10 @@ button, input[type="button"], input[type="submit"] {
 	padding: 0;
 }
 
+.wcorg-sponsor-description > a {
+	box-shadow: none !important;
+}
+
 /* Blog Pages */
 .blog .site-main article,
 .archive .site-main article,
@@ -411,4 +415,18 @@ a.wcpt-session-title {
 .site-info a:hover {
 	color: red !important;
 	border-bottom: 3px solid red !important;
+}
+
+/* MAILCHIMP FORM */
+.wcorg-mailchimp input[type="submit"]{
+	margin-top: 1rem;
+	width: 100%;
+	height: 48px;
+}
+.wcorg-mailchimp label.wcorg-mailchimp-email{
+	margin-top: 1rem;
+}
+.wcorg-mailchimp input{
+	border: 1px black solid !important;
+	border-radius: 0 !important;
 }
