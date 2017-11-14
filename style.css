@@ -84,6 +84,33 @@ p{
 	background-color: #2DBDF2;
 }
 
+/* Ticket button in nav */
+
+.ticket-btn{
+	float: right;
+	right: 10%;
+	padding: 0;
+	margin: 0 10px !important;
+}
+
+.ticket-btn a{
+	padding: .35rem 1rem;
+}
+
+@media screen and (max-width: 768px ){
+
+	.ticket-btn{
+		float: none;
+		right: 0;
+		padding: 0;
+		margin: 30px auto 10px auto !important;
+	}
+
+}
+
+
+
+
 /* Heading effects */
 
 .home #panel2 h2{
