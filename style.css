@@ -84,6 +84,20 @@ p{
 	background-color: #2DBDF2;
 }
 
+/* Heading effects */
+
+.home h2, h1{
+	text-shadow: 1px 1px 0px rgba(238, 57, 91, 1);
+}
+
+.home #panel1 h2{
+	text-shadow: 1px 1px 0px rgba(254, 232, 0, 1);
+}
+
+.home #panel3 h2{
+	text-shadow: 1px 1px 0px rgba(45, 189, 242, 1);
+}
+
 /* Header */
 .panel-image {
 	height: 100vh;
