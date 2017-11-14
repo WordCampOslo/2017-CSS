@@ -100,6 +100,7 @@ p{
 @media screen and (max-width: 768px ){
 
 	.ticket-btn{
+		max-width: 80% !important;
 		float: none;
 		right: 0;
 		padding: 0;
