@@ -234,6 +234,8 @@ button, input[type="button"], input[type="submit"] {
 	padding-top: 40px;
 }
 
+
+
 .wcorg-sponsor-level-bronze .wcorg-sponsor:last-of-type {
 	margin-bottom: 0;
 }
@@ -254,6 +256,18 @@ button, input[type="button"], input[type="submit"] {
 .wcorg-sponsors .wcorg-sponsor-level-small-business .wcorg-sponsor > h3 {
 	display: block;
 	text-align: center;
+}
+
+/* SINGLE SPONSOR */
+.single-wcb_sponsor .single-featured-image-header img {
+	width: 80%;
+	max-width: 320px;
+}
+
+.single-wcb_sponsor .single-featured-image-header {
+	padding: 2rem 0 0 0;
+	background-color: transparent !important;
+	border: 0 !important;
 }
 
 /* Organizers Page */
