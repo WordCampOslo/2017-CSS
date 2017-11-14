@@ -86,6 +86,10 @@ p{
 
 /* Heading effects */
 
+.home #panel2 h2{
+	text-shadow: 1px 1px 0px rgba(238, 57, 91, 1);
+}
+
 .home h2, h1{
 	text-shadow: 1px 1px 0px rgba(254, 232, 0, 1);
 }
