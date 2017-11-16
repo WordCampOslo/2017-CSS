@@ -331,8 +331,8 @@ button, input[type="button"], input[type="submit"] {
 
 .wcorg-organizer-description .container img:hover{
 	zoom: 1;
-	filter: alpha(opacity=40) !important;
-	opacity: .4 !important;
+	filter: alpha(opacity=0) !important;
+	opacity: 0 !important;
 	-webkit-transition: opacity .15s ease-in-out;
 	-moz-transition: opacity .15s ease-in-out;
 	-ms-transition: opacity .15s ease-in-out;
