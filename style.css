@@ -329,7 +329,7 @@ button, input[type="button"], input[type="submit"] {
 	transition: opacity .15s ease-in-out;
 }
 
-.wcorg-organizer-description .container img:hover{
+.wcorg-organizer-description:hover .container img{
 	zoom: 1;
 	filter: alpha(opacity=0) !important;
 	opacity: 0 !important;
