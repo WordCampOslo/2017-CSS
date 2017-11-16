@@ -321,24 +321,50 @@ button, input[type="button"], input[type="submit"] {
 	}
 }
 
-.wcorg-organizer-description img:hover{
-	zoom: 1;
-	filter: alpha(opacity=0);
-	opacity: 0;
+.wcorg-organizer-description img {
 	-webkit-transition: opacity .15s ease-in-out;
 	-moz-transition: opacity .15s ease-in-out;
 	-ms-transition: opacity .15s ease-in-out;
 	-o-transition: opacity .15s ease-in-out;
 	transition: opacity .15s ease-in-out;
- }
+}
 
-.wcorg-organizer-description .container.thomas{
-	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/Skjermbilde-2017-11-16-kl.-22.30.47-e1510867921753.png');
+.wcorg-organizer-description img:hover{
+	zoom: 1;
+	filter: alpha(opacity=10) !important;
+	opacity: .1 !important;
+	-webkit-transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-ms-transition: opacity .15s ease-in-out;
+	-o-transition: opacity .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
+}
+
+.wcorg-organizer-description .container{
 	height: 150px;
 	width: 150px;
 	display: block;
+	background-size: cover;
+	float: left;
+	margin-right: 1rem;
+	margin-bottom: 2rem;
 }
 
+.wcorg-organizer-description .container.thomas{
+	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/Skjermbilde-2017-11-16-kl.-22.30.47-e1510867921753.png');
+}
+
+.wcorg-organizer-description .container.linda{
+	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/Skjermbilde-2017-11-16-kl.-22.38.42-e1510868382255.png');
+}
+
+.wcorg-organizer-description .container.bjorn{
+	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/Skjermbilde-2017-11-16-kl.-22.33.32-e1510868096765.png');
+}
+
+.wcorg-organizer-description .container.jeanett{
+	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/Skjermbilde-2017-11-16-kl.-22.35.45-e1510868210167.png');
+}
 
 .wcorg-sponsor-description > a {
 	box-shadow: none !important;
