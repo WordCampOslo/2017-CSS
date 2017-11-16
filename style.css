@@ -321,7 +321,7 @@ button, input[type="button"], input[type="submit"] {
 	}
 }
 
-.wcorg-organizer-description img {
+.wcorg-organizer-description .container img {
 	-webkit-transition: opacity .15s ease-in-out;
 	-moz-transition: opacity .15s ease-in-out;
 	-ms-transition: opacity .15s ease-in-out;
@@ -329,7 +329,7 @@ button, input[type="button"], input[type="submit"] {
 	transition: opacity .15s ease-in-out;
 }
 
-.wcorg-organizer-description img:hover{
+.wcorg-organizer-description .container img:hover{
 	zoom: 1;
 	filter: alpha(opacity=10) !important;
 	opacity: .1 !important;
@@ -364,6 +364,22 @@ button, input[type="button"], input[type="submit"] {
 
 .wcorg-organizer-description .container.jeanett{
 	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/Skjermbilde-2017-11-16-kl.-22.35.45-e1510868210167.png');
+}
+
+.wcorg-organizer-description .container.vincent{
+	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/1906002-glory_2.jpg');
+}
+
+.wcorg-organizer-description .container.kristin{
+	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/220px-Catwoman_Batman_Vol_3_28.png');
+}
+
+.wcorg-organizer-description .container.andreas{
+	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/red-tornado.jpg');
+}
+
+.wcorg-organizer-description .container.andreas{
+	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/red-robin.png');
 }
 
 .wcorg-sponsor-description > a {
