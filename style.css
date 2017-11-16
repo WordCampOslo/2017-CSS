@@ -321,7 +321,7 @@ button, input[type="button"], input[type="submit"] {
 	}
 }
 
-.wcorg-organizer-description img{
+.wcorg-organizer-description img:hover{
 	zoom: 1;
 	filter: alpha(opacity=0);
 	opacity: 0;
