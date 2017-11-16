@@ -322,11 +322,17 @@ button, input[type="button"], input[type="submit"] {
 }
 
 .wcorg-organizer-description img{
-	opacity: .5;
-}
+	zoom: 1;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-ms-transition: opacity .15s ease-in-out;
+	-o-transition: opacity .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
+ }
 
-.wcorg-organizer-description img.thomas:before{
-	content: "";
+.wcorg-organizer-description .container.thomas{
 	background-image: url('https://2018.oslo.wordcamp.org/files/2017/11/Skjermbilde-2017-11-16-kl.-22.30.47-e1510867921753.png');
 	height: 150px;
 	width: 150px;
