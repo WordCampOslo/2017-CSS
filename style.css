@@ -590,15 +590,12 @@ blockquote:before {
 
 @media screen and (max-width: 768px){
 	blockquote:before {
-		content: "";
-		background: url(https://2018.oslo.wordcamp.org/files/2017/11/snakkebobble.png);
 		height: 50px;
 		width: 60px;
 		position: relative;
 		float: left;
+		left: 0;
+		top: 0;
 		display: block;
-		background-position: center;
-		background-size: contain;
-		background-repeat: no-repeat;
 	}
 }
