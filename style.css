@@ -2,6 +2,7 @@
 
 h1, h2, h3 {
 	font-family: 'Bangers', sans-serif;
+	line-height: 1em;
 }
 
 p{
@@ -114,6 +115,7 @@ p{
 
 
 /* Heading effects */
+
 
 .home #panel2 h2{
 	text-shadow: 4px 2px 0px rgba(238, 57, 91, 1);
