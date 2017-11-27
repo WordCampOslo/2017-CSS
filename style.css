@@ -599,14 +599,3 @@ blockquote:before {
 		display: block;
 	}
 }
-
-
-
-.home h2.entry-title {
-	background: url(https://2018.oslo.wordcamp.org/files/2017/11/Asset-2@4x.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 230px;
-	padding-top: 75px;
-}
