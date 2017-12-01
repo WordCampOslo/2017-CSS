@@ -1,6 +1,6 @@
 /* Custom CSS from 2018.oslo.wordcamp.org */
 
-h1, h2 {
+h1, h2.entry-title{
 	font-family: 'Bangers', sans-serif;
 	line-height: 1em;
 }
