@@ -271,7 +271,7 @@ button, input[type="button"], input[type="submit"] {
 	padding-top: 40px;
 }
 
-.wcorg-sponsor .wcorg-sponsor:nth-of-type(2n+1){
+.wcorg-sponsors .wcorg-sponsor:nth-of-type(2n+1){
 	clear:left;
 }
 
